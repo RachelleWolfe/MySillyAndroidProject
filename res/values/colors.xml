@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="uglyGreen">#aFFB00</color>
-    <color name="white">#FFFFFF</color>
-    <color name="otherBlack">#000000</color>
-    <color name="uglyRed">#aF1140</color>
+    <color name="bloodRed">#DF0101</color>
+    <color name="brightOrange">#FF4000</color>
+    <color name="lemonYellow">#FFFF00</color>
+    <color name="neonGreen">#40FF00</color>
+    <color name="forestGreen">#04B404</color>
+    <color name="seaFoamGreen">#00FF80</color>
+    <color name="cyanBlue">#00FFFF</color>
+    <color name="skyBlue">#0080FF</color>
+    <color name="tARDISBlue">#0101DF</color>
+    <color name="darkPurple">#3104B4</color>
+    <color name="prettyPurple">#642EFE</color>
 </resources>

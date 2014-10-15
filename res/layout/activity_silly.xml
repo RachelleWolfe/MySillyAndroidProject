@@ -3,26 +3,26 @@
     android:id="@+id/appLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/uglyRed"
     android:orientation="vertical"
     tools:context="${relativePackage}.${activityClass}" >
 
     <TextView
-        android:id="@+id/sillyTextView"
+        android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
-        android:text="@string/labelText"
-        android:textColor="@color/uglyGreen" />
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="56dp"
+        android:layout_marginTop="22dp"
+        android:text="@string/textBoxOne"
+        android:textColor="@color/tARDISBlue" />
 
     <Button
-        android:id="@+id/firstButton"
+        android:id="@+id/bloodRedButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/sillyTextView"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="15dp"
-        android:text="@string/funText" />
+        android:layout_alignRight="@+id/textView1"
+        android:layout_below="@+id/textView1"
+        android:text="@string/bloodRed" />
 
 </RelativeLayout>
